@@ -59,9 +59,8 @@ No changes are required in pages, components, or API logic.
 
 ## Assumptions and Design Decisions
 
-- JSON Server is used as a mock backend since real API details were not provided
+- Backend API was not provided, so JSON Server is used as a mock API
 - React Hook Form and Zod are used for centralized validation
-- Browser native validation and autofill are disabled for consistent UX
 - Hash-based routing is used for compatibility with static hosting
 
 ---
